@@ -1,0 +1,76 @@
+.title-faq h2
+{
+    text-align: left;
+    font-size: 2rem;
+    font-family: "Noto Sans" ,sans-serif;
+    font-weight: 700;
+    color: rgb(6, 34, 53);
+}
+
+.card-faqs{
+width: inherit;
+}
+.card-header{
+    border: 1px solid rgb(33, 37, 245);
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 1rem;
+    border-radius: 3px;
+    
+}
+.title-faq{
+    width: 50%;
+    margin: auto;
+}
+.collapse-question:hover {
+    cursor: pointer;
+    color:rgb(20, 47, 105);
+}
+.collapse-question{
+    font-size: 1.1rem;
+padding: 1.25rem 1.5rem;
+font-family: sans-serif;
+}
+.collapse-answer{
+    font-size: 1.1rem;
+}
+.collapse-body{
+   color: #111a48;
+   font-family: unset;
+}
+.information{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #007bff;
+    font-family: monospace
+}
+.btn-click{
+    background-color: #111a48;
+    
+}
+.link{
+   color: white; 
+}
+@media (min-width: 768px) {
+    .title-faq h2{
+      font-size:1.5rem;
+    }
+    .title-faq{
+        width: 80%;
+    }
+    
+}
+@media (max-width: 576px) {
+    .title-faq h2{
+      font-size:16px;
+    }
+    .title-faq{
+        width: 80%;
+    }
+    .collapse-question{
+        font-size: 13px;
+    }
+    .collapse-answer{
+        font-size: 12;
+
+    }
+}

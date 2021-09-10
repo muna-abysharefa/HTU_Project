@@ -1,0 +1,86 @@
+body {
+   background-image: url(../img/images\ \(4\).jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login h1{
+    color:white;
+    text-align:center;
+}
+form{
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    top: 4cm;
+    left: 7cm;
+    right: 0cm;
+    bottom: 0cm;
+}
+form.inputs{
+    position: relative;
+}
+
+form .inputs .input-one .svg-inline--fa{
+position: absolute;
+padding:6px;
+margin: 2px;
+    font-size: 18px;
+    color: black;
+}
+form .inputs .input-tow .svg-inline--fa 
+{
+    position: absolute;
+padding:6px;
+margin: 2px;
+    font-size: 18px;
+    color: black;
+}
+ input[type="text" ]{
+    
+    padding: 2px;
+    margin: 5px;
+    
+     }
+     form .inputs .buttons h3{
+        
+        font-size:15px;
+        color:white; 
+        text-align:left;
+        margin: 10px;
+     }
+     .login form{
+        background-color: rgb(107 105 105 / 38%);
+        height: 340px;
+        width: 230px;
+        position: absolute;
+        top: 3cm;
+        left: 14cm;
+        bottom: 0cm;
+     }
+     .log{
+        background-color: rgb(29 184 245 / 92%);
+        width: 180px;
+        border: none;
+        color: white;
+        padding: 5px;
+        position: absolute;
+        margin:6px;
+     }
+     .buttons h2{
+        font-size: 15px;
+        color: white;
+        text-align:center;
+     }
+     .face{
+         background-color: rgba(101, 135, 247, 0.411);
+         margin: 6px;;
+     }
+     .insta{
+        background-color: rgba(231, 49, 80, 0.911);
+    }
+    .kwords a{
+        color:rgb(11, 75, 250);
+    }
+    .kwords p{
+        color:white;
+    }

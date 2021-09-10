@@ -1,0 +1,35 @@
+.title-login{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+}
+
+ .name-lable{
+     font-size: 14px;
+     font-family: cursive;
+     width: auto;
+ }
+.inp-text{
+font-size: 12px;
+font-family: monospace;
+}
+button{
+    width: 240px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    

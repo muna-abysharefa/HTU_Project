@@ -1,0 +1,22 @@
+
+.average-student{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 24, 26);
+    border-collapse: collapse;
+}
+.average-student th,.average-student td{
+padding: 10px;
+}
+.average-student th{
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: left;
+}
+.average-student tr:nth-child(even)
+{
+    background-color: rgb(247, 185, 247);
+}
+.average-student tr:hover{
+    background-color: rgb(117, 108, 117);
+}

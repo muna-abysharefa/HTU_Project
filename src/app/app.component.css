@@ -1,0 +1,65 @@
+.navbar{
+  background-color: #f5f6fa;
+}
+.nav-item .nav-link{
+  color: #111a48;
+}
+.list{
+  margin: 1rem;
+}
+ .alert{
+ text-align: center;
+}
+
+.navbar-nav{
+  font-size: 14px;
+  font-family:cursive;
+}
+.nav-item .nav-link:hover{
+  background-color: #cdd3f7;
+}
+.alert-call{
+  font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+.facebook{
+  width: 25px;
+  margin: 9px;
+}
+.twitter{
+  width: 25px;
+  margin: 9px;
+}
+footer{
+  background-color:#111a48 ;
+}
+
+.copyright{
+  color: rgb(129, 211, 231);
+  font-size: 15px;
+  font-family: monospace;
+
+}
+.footer-ministry{
+  color: white;
+  font-size:15px;
+  font-family: monospace;
+}
+@media(max-width:576px)
+{
+  .alert-call{
+    font-size: 10px;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .logo-jordan{
+    width:20%;
+  }
+  
+  .alert-call{
+    width: 100%;
+    font-size: 13px;
+  }
+}

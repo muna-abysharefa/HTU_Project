@@ -1,0 +1,28 @@
+
+  .search{
+    width: 50%;
+    background: #f2f3f7;
+    border: 2px solid rgb(141, 151, 241);
+  width: min-content;
+  }
+  .search ::placeholder{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.719);
+  }
+tr{
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: normal;
+}
+th{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 500;
+}
+td{
+    font-family: monospace;
+    font-size: 14px;
+}
+.table{
+    width: 50%;
+}

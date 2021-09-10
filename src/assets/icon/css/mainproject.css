@@ -1,0 +1,22 @@
+
+
+.parent h2{
+    font-size:30px;
+    
+    color: #a9a9a9e5;;
+}
+    .parent img{
+     
+          width: 400px;;
+          height:400px;
+          float:right;
+      }
+      @media(max-width:768px)
+      {
+          .parent p {
+              
+              color: hsla(231, 85%, 70%, 0.829);
+          }
+      }
+     
+      

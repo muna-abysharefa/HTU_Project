@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(0, 153, 255, 0.048);
+}
+.imgback{
+    top:20%;
+    width: 650px;
+    height:500px;
+    float: right;
+    }
+    .imglogo{
+        width:150px;
+    height:150px;
+    margin:12px ;
+    padding:10px;
+    }
+.stylbox input[type=text],input[type=Password]{
+     padding:10px;
+     margin:12px;
+     width: 200px;
+
+box-sizing: border-box;
+border:white;
+letter-spacing: 1px;
+
+
+}
+.stylbox button{
+    background-color: rgb(248, 46, 46);
+    color:rgba(255, 255, 240, 0.884);
+    border:none;
+    padding: 10px;
+
+     margin:12px;
+    width: 200px;
+}
+
+.fa{
+    padding-bottom: 2px;
+    margin-right: 5px;
+ 
+}

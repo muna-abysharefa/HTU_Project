@@ -1,0 +1,135 @@
+
+body{
+
+    background-color: rgba(71, 61, 139, 0.089);  
+    box-sizing:border-box;
+}
+.parent{
+    background-image:url(../img/Capture.PNG);
+}
+h1{
+    font-size:20px;
+    margin-left: 10px;  
+}
+    .parent .loginp{
+    background-color:white;
+    margin-right:4px;
+    height:80px;
+}
+.logo .sign-logo {
+    float: left;
+    height: 80px;   
+}
+ul{
+    float:right;
+    list-style-type: disc;
+}
+.listlog ul ul{
+    display:none;
+    
+        border: rgba(195 72 59 / 19%); 
+        border-radius: 0px; 
+        padding: 0;
+        
+}
+.listlog ul li{
+    display: inline-block;
+    
+    border: 2px solid rgba(195 72 59 / 19%);
+}
+
+ul li:hover > ul {
+    display: block;
+}
+.listlog ul li a{
+    text-decoration:none;
+    padding:4px;
+}
+.input i{
+    position: absolute;
+    left: 15pc;
+   top:12px;
+    
+}
+.downbody{
+    background-color: white;
+    height: 450px;
+    width: 700px;
+    position: absolute;
+    top: 4cm;
+    left: 7cm;
+    right: 0cm;
+    bottom: 0cm;
+    
+    box-sizing:border-box;
+}
+.fontcancel{
+    float: right;
+}
+.contantbody p{
+    
+    background-color: rgb(173 121 39 / 94%);
+    padding:12px;
+    font-size: 13px;
+    color: white;
+    width: 675px;
+}
+
+
+.contentl p{
+text-align: left;
+padding:5px;
+}
+
+ .logimg{
+    float: left;
+    width: 400px;
+    height: 300px;
+    border: 2px solid blue;
+
+ }
+ input[type="text" ]{
+width:230px;
+height: 22px;
+border: 1px solid rgba(26 27 27 / 11%);
+border-radius: 9px 9px 12px 9px;
+background-color: #e2dddd5e;
+padding: 2px;
+    margin: 5px
+ }
+ .input label{
+     padding: 5px;
+     margin: 2px;
+ }
+.input h2{
+   text-decoration: underline;
+   font-size:15px;
+   color:rgb(89, 168, 233); 
+   text-align:right;
+   margin: 10px;
+}
+.input button
+{
+    background-color: rgb(202 158 103 / 92%);
+    color:rgba(255, 255, 240, 0.884);
+    border:none;
+    padding: 10px;
+
+     margin:12px;
+     width: 230px;
+}
+
+@media(max-width:768px)
+      {
+        .contentl p{
+            color: violet;
+        }
+      }
+      @media(max-width:600px)
+      {
+        body{
+            background-color: rgb(148, 103, 103);
+        }
+      }
+
+
